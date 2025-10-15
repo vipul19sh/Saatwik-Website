@@ -1,0 +1,31 @@
+body    {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    background: linear-gradient(#fff1e4, #dcb99d);
+}
+
+h1   {
+    margin-top: 0;
+    margin-bottom: 60px;
+    color: #42280b;
+}
+
+.logo img   {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.items  {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.item   {
+    border: 5px solid #42280b;
+    border-radius: 20px;
+    margin: 5px;
+    max-width: 33.333333333333333%;
+}
